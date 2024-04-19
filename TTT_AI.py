@@ -81,12 +81,6 @@ def selectRandom(li):
     r = random.randrange(0, ln)
     return li[r]
 
-# def isBoardFull (board):
-#     if board.count > 1:
-#         return False
-#     else: 
-#         return True
-
 def isBoardFull(board):
     return board.count(' ') == 0
 
